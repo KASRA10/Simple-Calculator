@@ -8,10 +8,41 @@
   <meta name="author" content="Kasra Hosseini-K10">
   <title>Calculator-Dom</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
-  <div id="root"></div>
+  <h1 id="heading">This Is Simple Calculator In JavaScript (DOM) Created By Kasra Hosseini-K10</h1>
+  <div class="calculator-frame">
+    <div id="screen-Output" class="output"></div>
+    <button type="button" class="mybutton">1</button>
+    <button type="button" class="mybutton">2</button>
+    <button type="button" class="mybutton">3</button>
+    <br>
+    <button type="button" class="mybutton">4</button>
+    <button type="button" class="mybutton">5</button>
+    <button type="button" class="mybutton">6</button>
+    <br>
+    <button type="button" class="mybutton">7</button>
+    <button type="button" class="mybutton">8</button>
+    <button type="button" class="mybutton">9</button>
+    <br>
+    <button type="button" class="mybutton type2" id="zero">0</button>
+    <button type="button" class="mybutton type2">.</button>
+    <br>
+    <button class="operators" id="sum" type="button">+</button>
+    <button class="operators" id="sub" type="button">-</button>
+    <button class="operators" id="mul" type="button">*</button>
+    <button class="operators" id="dis" type="button">/</button>
+    <button class="operators" id="per" type="button">%</button>
+    <br>
+    <button class="AC" type="button" id="ACB">AC</button>
+    <button class="delete" type="button" id="Del">DL</button>
+    <button class="equal" type="button" id="equal">=</button>
+  </div>
   <script src="main.js" type="text/javascript"></script>
 </body>
 
